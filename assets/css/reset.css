@@ -1,0 +1,112 @@
+//reset
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+//generic elements
+
+:root {
+  --blue: #012052;
+  --white: #fff;
+  --teal: rgb(34, 201, 252);
+}
+
+* {
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  justify-content: center;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: ;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  color: #012052;
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: var(--teal);
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 0 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: center;
+}
