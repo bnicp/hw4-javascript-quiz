@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-<body>
-    <div class="container">
-        <div id="home" class="flex-center flex-column">
-          <h1>Quiz Example</h1>
-          <button class="btn">Start</button><br><br>
-          <button class="btn">High Scores</button>
-        </div>
+  </head>
+  <body>
+    <header>
+Time: <span id="time"></span>
+    </header>
+    <main>
+    <div class="container" id="startScreen">
+      <div id="home" class="flex-center flex-column">
+        <h1>Quiz Example</h1>
+        <button class="btn" id="start">Start</button><br /><br />
+        <button class="btn">High Scores</button>
       </div>
-    
-</body>
+    </div>
+    <div class="container card hidden" id="gameScreen">
+      <h2 id="question-text"></h2>
+
+        <div id="quiz-choices">
+          <button id="choice0" class="btn choice-button"></button>
+          <button id="choice1" class="btn choice-button"></button>
+          <button id="choice2" class="btn choice-button"></button>
+          <button id="choice3" class="btn choice-button"></button>
+        </div>
+
+    <div class="container hidden" id="highScores">
+      <h1>High Scores</h1>
+      <button class="btn" id="">High Scores</button><br /><br />
+    </div>
+  </main>
+  </body>
+  <script src="./assets/js/script.js"></script>
 </html>

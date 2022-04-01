@@ -1,8 +1,47 @@
+/* Colors */
+
+:root {
+  --blue: #012052;
+  --white: #fff;
+  --teal: #22c9fc;
+}
+
+/* Universal */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem 0 0 0;
+}
+
+h3 {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: var(--white);
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: right;
+  background-color: var(--blue);
+  color: var(--white);
+  height: 2rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 100vh;
   width: 100vw;
 }
 
@@ -24,4 +63,24 @@
 /*utilities*/
 .hidden {
   display: none;
+}
+
+/* Main Styles */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice-button {
+  width: 100%;
+  text-align: left;
+  margin: 5px;
+}
+
+#time {
+  min-width: 85px;
+  color: var(--white);
+  font-size: 2rem;
 }
