@@ -1,13 +1,33 @@
-var startBtn = document.querySelector("#start")
-var startScreen = document.getElementById("startScreen")
-var gameScreen = document.getElementById('gameScreen')
-
-startBtn.addEventListener("click",function() {
-    console.log("brandi")
-    document.getElementById("startScreen");
-    startScreen.classList.add("hidden");
-    gameScreen.classList.remove("hidden");
-
-
-})
-
+// questions, choices, answers array
+const questions = [
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+  {
+    questionText: "Question asked here",
+    choices: ["A", "B", "C", "D"],
+    answer: "A",
+  },
+];

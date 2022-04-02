@@ -1,26 +1,12 @@
-/* Colors */
-
 :root {
   --blue: #012052;
   --white: #fff;
   --teal: #22c9fc;
+  --gray: #727272;
+  --light: #c4c4c4;
 }
 
-/* Universal */
-html {
-  font-size: 62.5%;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  padding: 4rem 0 0 0;
-}
-
-h3 {
-  color: var(--white);
-  font-size: 2rem;
-}
+/* Body Styles */
 
 body {
   font-family: "Courier New", Courier, monospace;
@@ -28,44 +14,15 @@ body {
   margin: 0px;
 }
 
+/* Header Styles  */
+
 header {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   background-color: var(--blue);
-  color: var(--white);
-  height: 2rem;
-  padding: 2rem;
-  font-size: 1.5rem;
+  color: #ffffff;
+  padding: 1.5rem;
 }
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100vw;
-}
-
-.btn {
-  padding: 1rem;
-  width: 30rem;
-  border-radius: 2rem;
-  font-size: 2rem;
-  color: rgb(34, 201, 252);
-  background-color: #012052;
-}
-
-.btn:hover {
-  opacity: 80%;
-  transition: all 0.5s ease-out;
-  cursor: pointer;
-}
-
-/*utilities*/
-.hidden {
-  display: none;
-}
-
-/* Main Styles */
 
 main {
   display: flex;
@@ -73,14 +30,90 @@ main {
   justify-content: center;
 }
 
+a:hover {
+  color: var(--light);
+}
+
+button:hover {
+  background-color: rgba(1, 32, 82, 0.8);
+}
+
+/* standardize time block */
+
+time {
+  min-width: 85px;
+}
+
+/* Button Styles */
+
+.button {
+  display: block;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.inline-buttons {
+  display: inline-flex;
+}
+
+/* Screen Styles */
+
+.screen {
+  max-width: 80%;
+  margin-top: 7rem;
+  border: solid;
+  border-width: 2px;
+  padding: 2.5rem;
+  border-radius: 30px;
+  border-color: var(--blue);
+  box-shadow: 10px 5px 5px var(--gray);
+}
+
+#start-screen {
+  text-align: center;
+}
+
 .choice-button {
   width: 100%;
   text-align: left;
-  margin: 5px;
+  margin: 0.5rem;
 }
 
-#time {
-  min-width: 85px;
-  color: var(--white);
-  font-size: 2rem;
+#result-box {
+  display: none;
+}
+
+/* Score Screen Styles */
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#initials {
+  width: 25%;
+  margin: 8px;
+  padding: 0.5rem;
+}
+
+/* High Score Styles */
+
+#back-button {
+  margin-right: 8px;
+}
+
+.high-score-list {
+  padding-inline-start: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  .screen {
+    max-width: 650px;
+  }
 }
