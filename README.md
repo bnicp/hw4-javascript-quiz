@@ -14,7 +14,7 @@ Gif of process
 
 ![quiz walkthrough.](./assets/images/javascript_quiz)
 
-Deployed application:
+Deployed application: https://bnicp.github.io/hw4-javascript-quiz/
 
 ## Credits
 
