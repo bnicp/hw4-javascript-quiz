@@ -105,7 +105,7 @@ function displayQuestion() {
   }
 }
 
-// identifie which choice button was clicked
+// identify which choice button was clicked
 document.getElementById("answer-choices").addEventListener("click", checkAnswer);
 
 // Check choice against answer
