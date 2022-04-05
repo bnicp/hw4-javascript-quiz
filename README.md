@@ -10,9 +10,7 @@ The activity helped to teach me more about arrays, preventing time from running 
 
 ## Usage
 
-Gif of process
-
-![quiz walkthrough.](./assets/images/javascript_quiz)
+![quiz walkthrough.](./assets/images/Javascript_Quiz.gif)
 
 Deployed application: https://bnicp.github.io/hw4-javascript-quiz/
 
